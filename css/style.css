@@ -1,11 +1,11 @@
 .col{
-    border: 4px solid black;
+    border: 4px solid rgb(255, 255, 255);
     text-align: center;
 }
 
 .navbar ul {
     list-style-type: none;
-    background-color: hsl(0, 100%, 50%);
+    background-color: hsl(244, 86%, 43%);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -35,4 +35,16 @@
     justify-content: center;
     justify-self: center;
     justify-items: center;
+}
+
+.heading{
+    text-align: center;
+    font-size: 3.5rem;
+    color: #0000df;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+
+.heading span {
+    color: var(--main)
 }
